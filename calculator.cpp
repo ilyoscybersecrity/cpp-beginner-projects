@@ -16,11 +16,13 @@ result3 = a*b;
 result4 = a/b;
 result5 = a%b;
 
-if (b !=0 ) {
-  cout << "dividing is : " << a/b <<"\n" ;
+if (b != 0) {
+    result4 = a / b;
+    cout << "Division: " << result4 << endl;
 }
-
-else { cout << " warning: no dividing to 0" ; }
+else {
+    cout << "Warning: You cannot divide by zero!" << endl;
+}
 
 cout << "your results :";
 cout << result1 << endl;
